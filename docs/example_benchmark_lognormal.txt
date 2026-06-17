@@ -1,0 +1,128 @@
+Hello from main!
+distribution=lognormal runs_per_config=5
+Dataset generation finished (lognormal), size=1250000
+generated dataset w/ size=0.01 Gb
+alg=dd run=1 size=0.01 num_threads=1 space=512 t_add_ms=17 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.01 num_threads=2 space=512 t_add_ms=18 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.01 num_threads=4 space=512 t_add_ms=9 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.01 num_threads=8 space=512 t_add_ms=6 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=1 size=0.01 t_add_ms=16 t_add_s=0 t_sort_ms=42 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999751 qv0.75=1.96185 qv0.9=3.60145 qv0.95=5.18815 qv0.99=10.3009 qv1=156.407
+alg=hist run=1 size=0.01 space=100000 t_add_ms=4 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96236 qv0.9=3.60143 qv0.95=5.1889 qv0.99=10.3016 qv1=156.406
+alg=tdigest run=1 size=0.01 space=58 t_add_ms=96 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00119 qv0.75=1.96511 qv0.9=3.61595 qv0.95=5.20665 qv0.99=10.4152 qv1=156.407
+alg=kll run=1 size=0.01 space=763 t_add_ms=51 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.996393 qv0.75=1.94954 qv0.9=3.61761 qv0.95=5.0534 qv0.99=11.0145 qv1=16.991
+alg=dd run=2 size=0.01 num_threads=1 space=512 t_add_ms=17 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.01 num_threads=2 space=512 t_add_ms=18 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.01 num_threads=4 space=512 t_add_ms=9 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.01 num_threads=8 space=512 t_add_ms=6 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=2 size=0.01 t_add_ms=12 t_add_s=0 t_sort_ms=41 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999751 qv0.75=1.96185 qv0.9=3.60145 qv0.95=5.18815 qv0.99=10.3009 qv1=156.407
+alg=hist run=2 size=0.01 space=100000 t_add_ms=3 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96236 qv0.9=3.60143 qv0.95=5.1889 qv0.99=10.3016 qv1=156.406
+alg=tdigest run=2 size=0.01 space=58 t_add_ms=99 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00119 qv0.75=1.96511 qv0.9=3.61595 qv0.95=5.20665 qv0.99=10.4152 qv1=156.407
+alg=kll run=2 size=0.01 space=763 t_add_ms=53 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.996393 qv0.75=1.94954 qv0.9=3.61761 qv0.95=5.0534 qv0.99=11.0145 qv1=16.991
+alg=dd run=3 size=0.01 num_threads=1 space=512 t_add_ms=17 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.01 num_threads=2 space=512 t_add_ms=18 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.01 num_threads=4 space=512 t_add_ms=10 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.01 num_threads=8 space=512 t_add_ms=5 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=3 size=0.01 t_add_ms=12 t_add_s=0 t_sort_ms=42 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999751 qv0.75=1.96185 qv0.9=3.60145 qv0.95=5.18815 qv0.99=10.3009 qv1=156.407
+alg=hist run=3 size=0.01 space=100000 t_add_ms=3 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96236 qv0.9=3.60143 qv0.95=5.1889 qv0.99=10.3016 qv1=156.406
+alg=tdigest run=3 size=0.01 space=58 t_add_ms=96 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00119 qv0.75=1.96511 qv0.9=3.61595 qv0.95=5.20665 qv0.99=10.4152 qv1=156.407
+alg=kll run=3 size=0.01 space=763 t_add_ms=52 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.996393 qv0.75=1.94954 qv0.9=3.61761 qv0.95=5.0534 qv0.99=11.0145 qv1=16.991
+alg=dd run=4 size=0.01 num_threads=1 space=512 t_add_ms=19 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.01 num_threads=2 space=512 t_add_ms=19 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.01 num_threads=4 space=512 t_add_ms=10 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.01 num_threads=8 space=512 t_add_ms=6 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=4 size=0.01 t_add_ms=8 t_add_s=0 t_sort_ms=43 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999751 qv0.75=1.96185 qv0.9=3.60145 qv0.95=5.18815 qv0.99=10.3009 qv1=156.407
+alg=hist run=4 size=0.01 space=100000 t_add_ms=3 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96236 qv0.9=3.60143 qv0.95=5.1889 qv0.99=10.3016 qv1=156.406
+alg=tdigest run=4 size=0.01 space=58 t_add_ms=98 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00119 qv0.75=1.96511 qv0.9=3.61595 qv0.95=5.20665 qv0.99=10.4152 qv1=156.407
+alg=kll run=4 size=0.01 space=763 t_add_ms=54 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.996393 qv0.75=1.94954 qv0.9=3.61761 qv0.95=5.0534 qv0.99=11.0145 qv1=16.991
+alg=dd run=5 size=0.01 num_threads=1 space=512 t_add_ms=20 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.01 num_threads=2 space=512 t_add_ms=19 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.01 num_threads=4 space=512 t_add_ms=10 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.01 num_threads=8 space=512 t_add_ms=6 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=5 size=0.01 t_add_ms=7 t_add_s=0 t_sort_ms=42 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999751 qv0.75=1.96185 qv0.9=3.60145 qv0.95=5.18815 qv0.99=10.3009 qv1=156.407
+alg=hist run=5 size=0.01 space=100000 t_add_ms=3 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96236 qv0.9=3.60143 qv0.95=5.1889 qv0.99=10.3016 qv1=156.406
+alg=tdigest run=5 size=0.01 space=58 t_add_ms=98 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00119 qv0.75=1.96511 qv0.9=3.61595 qv0.95=5.20665 qv0.99=10.4152 qv1=156.407
+alg=kll run=5 size=0.01 space=763 t_add_ms=53 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.996393 qv0.75=1.94954 qv0.9=3.61761 qv0.95=5.0534 qv0.99=11.0145 qv1=16.991
+Dataset generation finished (lognormal), size=2500000
+generated dataset w/ size=0.02 Gb
+alg=dd run=1 size=0.02 num_threads=1 space=512 t_add_ms=34 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.02 num_threads=2 space=512 t_add_ms=37 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.02 num_threads=4 space=512 t_add_ms=20 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=1 size=0.02 num_threads=8 space=512 t_add_ms=13 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=1 size=0.02 t_add_ms=28 t_add_s=0 t_sort_ms=90 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999818 qv0.75=1.96393 qv0.9=3.60475 qv0.95=5.1843 qv0.99=10.2814 qv1=156.407
+alg=hist run=1 size=0.02 space=100000 t_add_ms=12 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96392 qv0.9=3.60456 qv0.95=5.1842 qv0.99=10.2813 qv1=156.406
+alg=tdigest run=1 size=0.02 space=58 t_add_ms=237 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00122 qv0.75=1.96877 qv0.9=3.61997 qv0.95=5.22126 qv0.99=10.4391 qv1=156.407
+alg=kll run=1 size=0.02 space=768 t_add_ms=134 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00439 qv0.75=1.96594 qv0.9=3.61761 qv0.95=5.12748 qv0.99=10.061 qv1=18.7292
+alg=dd run=2 size=0.02 num_threads=1 space=512 t_add_ms=48 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.02 num_threads=2 space=512 t_add_ms=45 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.02 num_threads=4 space=512 t_add_ms=26 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=2 size=0.02 num_threads=8 space=512 t_add_ms=13 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=2 size=0.02 t_add_ms=18 t_add_s=0 t_sort_ms=107 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999818 qv0.75=1.96393 qv0.9=3.60475 qv0.95=5.1843 qv0.99=10.2814 qv1=156.407
+alg=hist run=2 size=0.02 space=100000 t_add_ms=14 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96392 qv0.9=3.60456 qv0.95=5.1842 qv0.99=10.2813 qv1=156.406
+alg=tdigest run=2 size=0.02 space=58 t_add_ms=203 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00122 qv0.75=1.96877 qv0.9=3.61997 qv0.95=5.22126 qv0.99=10.4391 qv1=156.407
+alg=kll run=2 size=0.02 space=768 t_add_ms=116 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00439 qv0.75=1.96594 qv0.9=3.61761 qv0.95=5.12748 qv0.99=10.061 qv1=18.7292
+alg=dd run=3 size=0.02 num_threads=1 space=512 t_add_ms=38 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.02 num_threads=2 space=512 t_add_ms=37 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.02 num_threads=4 space=512 t_add_ms=17 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=3 size=0.02 num_threads=8 space=512 t_add_ms=12 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=3 size=0.02 t_add_ms=13 t_add_s=0 t_sort_ms=91 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999818 qv0.75=1.96393 qv0.9=3.60475 qv0.95=5.1843 qv0.99=10.2814 qv1=156.407
+alg=hist run=3 size=0.02 space=100000 t_add_ms=7 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96392 qv0.9=3.60456 qv0.95=5.1842 qv0.99=10.2813 qv1=156.406
+alg=tdigest run=3 size=0.02 space=58 t_add_ms=205 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00122 qv0.75=1.96877 qv0.9=3.61997 qv0.95=5.22126 qv0.99=10.4391 qv1=156.407
+alg=kll run=3 size=0.02 space=768 t_add_ms=112 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00439 qv0.75=1.96594 qv0.9=3.61761 qv0.95=5.12748 qv0.99=10.061 qv1=18.7292
+alg=dd run=4 size=0.02 num_threads=1 space=512 t_add_ms=36 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.02 num_threads=2 space=512 t_add_ms=36 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.02 num_threads=4 space=512 t_add_ms=18 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=4 size=0.02 num_threads=8 space=512 t_add_ms=12 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=4 size=0.02 t_add_ms=13 t_add_s=0 t_sort_ms=86 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999818 qv0.75=1.96393 qv0.9=3.60475 qv0.95=5.1843 qv0.99=10.2814 qv1=156.407
+alg=hist run=4 size=0.02 space=100000 t_add_ms=7 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96392 qv0.9=3.60456 qv0.95=5.1842 qv0.99=10.2813 qv1=156.406
+alg=tdigest run=4 size=0.02 space=58 t_add_ms=188 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00122 qv0.75=1.96877 qv0.9=3.61997 qv0.95=5.22126 qv0.99=10.4391 qv1=156.407
+alg=kll run=4 size=0.02 space=768 t_add_ms=106 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00439 qv0.75=1.96594 qv0.9=3.61761 qv0.95=5.12748 qv0.99=10.061 qv1=18.7292
+alg=dd run=5 size=0.02 num_threads=1 space=512 t_add_ms=35 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.02 num_threads=2 space=512 t_add_ms=37 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.02 num_threads=4 space=512 t_add_ms=19 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=dd run=5 size=0.02 num_threads=8 space=512 t_add_ms=11 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=156.041
+alg=sbeq run=5 size=0.02 t_add_ms=14 t_add_s=0 t_sort_ms=87 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999818 qv0.75=1.96393 qv0.9=3.60475 qv0.95=5.1843 qv0.99=10.2814 qv1=156.407
+alg=hist run=5 size=0.02 space=100000 t_add_ms=6 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.0005 qv0.75=1.96392 qv0.9=3.60456 qv0.95=5.1842 qv0.99=10.2813 qv1=156.406
+alg=tdigest run=5 size=0.02 space=58 t_add_ms=197 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00122 qv0.75=1.96877 qv0.9=3.61997 qv0.95=5.22126 qv0.99=10.4391 qv1=156.407
+alg=kll run=5 size=0.02 space=768 t_add_ms=112 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00439 qv0.75=1.96594 qv0.9=3.61761 qv0.95=5.12748 qv0.99=10.061 qv1=18.7292
+Dataset generation finished (lognormal), size=5000000
+generated dataset w/ size=0.04 Gb
+alg=dd run=1 size=0.04 num_threads=1 space=640 t_add_ms=76 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=1 size=0.04 num_threads=2 space=640 t_add_ms=73 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=1 size=0.04 num_threads=4 space=640 t_add_ms=37 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=1 size=0.04 num_threads=8 space=640 t_add_ms=24 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=sbeq run=1 size=0.04 t_add_ms=45 t_add_s=0 t_sort_ms=171 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999407 qv0.75=1.9636 qv0.9=3.6057 qv0.95=5.18478 qv0.99=10.2927 qv1=191.329
+alg=hist run=1 size=0.04 space=100000 t_add_ms=12 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999767 qv0.75=1.96405 qv0.9=3.60564 qv0.95=5.18409 qv0.99=10.2925 qv1=191.328
+alg=tdigest run=1 size=0.04 space=59 t_add_ms=383 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00046 qv0.75=1.96745 qv0.9=3.61276 qv0.95=5.2134 qv0.99=10.4029 qv1=191.329
+alg=kll run=1 size=0.04 space=765 t_add_ms=230 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99532 qv0.75=1.94954 qv0.9=3.58448 qv0.95=5.24622 qv0.99=10.0617 qv1=16.7424
+alg=dd run=2 size=0.04 num_threads=1 space=640 t_add_ms=67 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=2 size=0.04 num_threads=2 space=640 t_add_ms=75 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=2 size=0.04 num_threads=4 space=640 t_add_ms=39 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=2 size=0.04 num_threads=8 space=640 t_add_ms=23 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=sbeq run=2 size=0.04 t_add_ms=28 t_add_s=0 t_sort_ms=178 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999407 qv0.75=1.9636 qv0.9=3.6057 qv0.95=5.18478 qv0.99=10.2927 qv1=191.329
+alg=hist run=2 size=0.04 space=100000 t_add_ms=13 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999767 qv0.75=1.96405 qv0.9=3.60564 qv0.95=5.18409 qv0.99=10.2925 qv1=191.328
+alg=tdigest run=2 size=0.04 space=59 t_add_ms=383 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00046 qv0.75=1.96745 qv0.9=3.61276 qv0.95=5.2134 qv0.99=10.4029 qv1=191.329
+alg=kll run=2 size=0.04 space=765 t_add_ms=229 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99532 qv0.75=1.94954 qv0.9=3.58448 qv0.95=5.24622 qv0.99=10.0617 qv1=16.7424
+alg=dd run=3 size=0.04 num_threads=1 space=640 t_add_ms=67 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=3 size=0.04 num_threads=2 space=640 t_add_ms=78 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=3 size=0.04 num_threads=4 space=640 t_add_ms=37 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=3 size=0.04 num_threads=8 space=640 t_add_ms=22 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=sbeq run=3 size=0.04 t_add_ms=26 t_add_s=0 t_sort_ms=181 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999407 qv0.75=1.9636 qv0.9=3.6057 qv0.95=5.18478 qv0.99=10.2927 qv1=191.329
+alg=hist run=3 size=0.04 space=100000 t_add_ms=13 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999767 qv0.75=1.96405 qv0.9=3.60564 qv0.95=5.18409 qv0.99=10.2925 qv1=191.328
+alg=tdigest run=3 size=0.04 space=59 t_add_ms=375 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00046 qv0.75=1.96745 qv0.9=3.61276 qv0.95=5.2134 qv0.99=10.4029 qv1=191.329
+alg=kll run=3 size=0.04 space=765 t_add_ms=226 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99532 qv0.75=1.94954 qv0.9=3.58448 qv0.95=5.24622 qv0.99=10.0617 qv1=16.7424
+alg=dd run=4 size=0.04 num_threads=1 space=640 t_add_ms=66 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=4 size=0.04 num_threads=2 space=640 t_add_ms=75 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=4 size=0.04 num_threads=4 space=640 t_add_ms=36 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=4 size=0.04 num_threads=8 space=640 t_add_ms=22 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=sbeq run=4 size=0.04 t_add_ms=28 t_add_s=0 t_sort_ms=178 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999407 qv0.75=1.9636 qv0.9=3.6057 qv0.95=5.18478 qv0.99=10.2927 qv1=191.329
+alg=hist run=4 size=0.04 space=100000 t_add_ms=13 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999767 qv0.75=1.96405 qv0.9=3.60564 qv0.95=5.18409 qv0.99=10.2925 qv1=191.328
+alg=tdigest run=4 size=0.04 space=59 t_add_ms=380 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00046 qv0.75=1.96745 qv0.9=3.61276 qv0.95=5.2134 qv0.99=10.4029 qv1=191.329
+alg=kll run=4 size=0.04 space=765 t_add_ms=228 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99532 qv0.75=1.94954 qv0.9=3.58448 qv0.95=5.24622 qv0.99=10.0617 qv1=16.7424
+alg=dd run=5 size=0.04 num_threads=1 space=640 t_add_ms=68 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=5 size=0.04 num_threads=2 space=640 t_add_ms=74 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=5 size=0.04 num_threads=4 space=640 t_add_ms=38 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=dd run=5 size=0.04 num_threads=8 space=640 t_add_ms=23 t_add_s=0 t_merge_ms=0 t_merge_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99 qv0.75=1.95418 qv0.9=3.63276 qv0.95=5.20701 qv0.99=10.2782 qv1=190.59
+alg=sbeq run=5 size=0.04 t_add_ms=28 t_add_s=0 t_sort_ms=179 t_sort_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999407 qv0.75=1.9636 qv0.9=3.6057 qv0.95=5.18478 qv0.99=10.2927 qv1=191.329
+alg=hist run=5 size=0.04 space=100000 t_add_ms=14 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.999767 qv0.75=1.96405 qv0.9=3.60564 qv0.95=5.18409 qv0.99=10.2925 qv1=191.328
+alg=tdigest run=5 size=0.04 space=59 t_add_ms=370 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=1.00046 qv0.75=1.96745 qv0.9=3.61276 qv0.95=5.2134 qv0.99=10.4029 qv1=191.329
+alg=kll run=5 size=0.04 space=765 t_add_ms=227 t_add_s=0 t_get_qv_ms=0 t_get_qv_s=0 qv0.5=0.99532 qv0.75=1.94954 qv0.9=3.58448 qv0.95=5.24622 qv0.99=10.0617 qv1=16.7424

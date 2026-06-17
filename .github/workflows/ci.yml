@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-test:
+    name: build & test (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # TBB enables the parallel sort on Linux; macOS deliberately builds without
+      # it to exercise the serial fallback.
+      - name: Install TBB (Linux)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libtbb-dev
+
+      - name: Configure
+        run: cmake -S project -B project/build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build project/build --config Release -j
+
+      - name: Run unit tests
+        run: ctest --test-dir project/build --output-on-failure
+
+      # ---- Python end-to-end (Linux only) ----
+      - name: Set up Python
+        if: runner.os == 'Linux'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Python deps
+        if: runner.os == 'Linux'
+        run: pip install -r pyplotting/requirements.txt
+
+      - name: Lint (compile) Python
+        if: runner.os == 'Linux'
+        run: |
+          python -m py_compile \
+            pyplotting/main.py \
+            pyplotting/plot.py \
+            project/dataset_generators/uniform_dist2file.py \
+            project/ddsketch/ddsketch_pycomparison/mytest.py
+
+      - name: Benchmark + plot smoke test
+        if: runner.os == 'Linux'
+        run: |
+          ./project/build/Data_Summaries 0.0008 --runs=2 > bench.txt
+          python pyplotting/plot.py bench.txt --outdir plots
+          ls -la plots
+
+      - name: Upload plots
+        if: runner.os == 'Linux'
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-plots
+          path: plots/

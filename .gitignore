@@ -1,0 +1,60 @@
+# Build directories
+cmake-build-debug/
+cmake-build-release/
+build/
+out/
+
+# Prerequisites
+*.d
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+Data_Summaries
+
+# Generated datasets / logs / plots
+uniform_dist_*.txt
+bench*.txt
+*.log
+plots/
+*.png
+# ...but keep the committed example plots
+!docs/img/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vs/
+.vscode/
+.DS_Store
